@@ -1,0 +1,6 @@
+[1;34musage: [0m[1;35mmanage.py dumpdata[0m [[32m-h[0m] [[36m--format [33mFORMAT[0m] [[36m--indent [33mINDENT[0m] [[36m--database [33m{default}[0m] [[32m-e [33mEXCLUDE[0m]
+                          [[36m--natural-foreign[0m] [[36m--natural-primary[0m] [[32m-a[0m] [[36m--pks [33mPRIMARY_KEYS[0m] [[32m-o [33mOUTPUT[0m]
+                          [[36m--version[0m] [[32m-v [33m{0,1,2,3}[0m] [[36m--settings [33mSETTINGS[0m] [[36m--pythonpath [33mPYTHONPATH[0m]
+                          [[36m--traceback[0m] [[36m--no-color[0m] [[36m--force-color[0m] [[36m--skip-checks[0m]
+                          [32m[app_label[.ModelName] ...][0m
+manage.py dumpdata: error: unrecognized arguments:  --indent
