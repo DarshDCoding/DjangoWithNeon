@@ -30,7 +30,9 @@ SECRET_KEY = 'django-insecure-9=u-c#08q+dm2l!c4^t8fh+t@+zxe1se-r*1dx%x_bonewbj%)
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    'django-with-neon.vercel.app'
+    'django-with-neon.vercel.app',
+    '127.0.0.1',
+    '*',
 ]
 
 
