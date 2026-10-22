@@ -32,7 +32,7 @@ DEBUG = False
 ALLOWED_HOSTS = [
     'django-with-neon.vercel.app',
     '127.0.0.1',
-    '*',
+    '*.onrender.com',
 ]
 
 
