@@ -22,5 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('testing/', include('testing.urls')),
     path('api/', include('api.urls')),
-    path('', views.db_version, name='db_version'),
+    path('db-version/', views.db_version, name='db_version'),
+    path('', views.home, name='home')
 ]

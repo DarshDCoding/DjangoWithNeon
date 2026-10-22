@@ -1,4 +1,4 @@
-from django.http import JsonResponse
+from django.http import JsonResponse, HttpResponse
 from django.db import connection
 
 def db_version(request):
@@ -6,3 +6,6 @@ def db_version(request):
         cursor.execute("SELECT version();")
         version = cursor.fetchone()[0]
     return JsonResponse({'version': version})
+
+def home(request):
+    return HttpResponse("<h1>Nothing to show here</h1>")
