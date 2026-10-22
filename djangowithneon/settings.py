@@ -27,9 +27,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-9=u-c#08q+dm2l!c4^t8fh+t@+zxe1se-r*1dx%x_bonewbj%)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'django-with-neon.vercel.app'
+]
 
 
 # Application definition
